@@ -243,7 +243,6 @@ public class NPC : MonoBehaviour, IDamagable
 
         Destroy(gameObject);
     }
-
     IEnumerator DamageFlash()
     {
         for (int x = 0; x < meshRenderers.Length; x++)
